@@ -40,6 +40,25 @@ def process_image(image):
 
 # Streamlit app
 st.title("Image Classifier ResNet50")
+st.write("What is ResNet50?")
+st.markdown("""
+ResNet-50 is a deep convolutional neural network that is part of the ResNet (Residual Network) family, which was introduced by researchers at Microsoft in the 2015 paper "Deep Residual Learning for Image Recognition". It is designed to address the problem of vanishing gradients and degradation of accuracy in very deep networks. ResNet-50 is a 50-layer version of this architecture, widely used for image classification tasks.
+
+### Labels:
+The model can classify a wide variety of categories, including:
+
+- **Animals**: Both terrestrial and aquatic species, such as birds (e.g., "ostrich," "flamingo"), reptiles (e.g., "Komodo dragon," "Nile crocodile"), amphibians, fish (e.g., "great white shark," "clownfish"), mammals (e.g., "lion," "chimpanzee"), and insects (e.g., "dragonfly," "ant").
+- **Dog Breeds**: A comprehensive list of dog breeds, from small toy breeds (e.g., "Chihuahua") to working and hound breeds (e.g., "German Shepherd Dog," "Dobermann").
+- **Objects**: Everyday items like "backpack," "toaster," "vacuum cleaner," and "computer keyboard."
+- **Vehicles**: Land, air, and water vehicles such as "aircraft carrier," "taxicab," and "canoe."
+- **Buildings and Structures**: Including "barn," "castle," "mosque," and "lighthouse."
+- **Clothing and Accessories**: Items like "kimono," "jeans," "bow tie," and "sunglasses."
+- **Musical Instruments**: Examples include "guitar," "accordion," and "violin."
+- **Food and Beverages**: A range of dishes ("pizza," "carbonara") and produce ("broccoli," "pineapple") to drinks ("espresso," "red wine").
+- **Natural Features**: Landforms and landscapes such as "volcano," "seashore," and "geyser."
+- **Miscellaneous Items**: Including "traffic light," "menu," "soap dispenser," and "bagel."
+""")
+
 st.write("Creator: Amanatullah Pandu Zenklinov")
 st.markdown("""
 [LinkedIn](https://www.linkedin.com/in/zenklinov/) | 
